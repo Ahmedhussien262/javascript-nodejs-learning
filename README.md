@@ -35,7 +35,7 @@ It includes a collection of real-world projects, practical applications, and det
 - Fetch API
 - Local Storage
 
-## 🎯 الهدف من الريبو
+##🎯 The goal of the repo
 
 - Apply JavaScript concepts in real-world projects  
 - Build a strong foundation in frontend and backend development  
