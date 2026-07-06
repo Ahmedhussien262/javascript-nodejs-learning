@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do-</title>
+    <style>
+*{
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  background-color: #ececec;
+}
+
+.container{
+  width: 600px;
+  margin: 50px auto;
+}
+
+/* form */
+
+.form{
+  background-color: #dcdcdc;
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  gap: 10px;
+}
+
+.input{
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.input:focus{
+  outline: none;
+}
+
+.add{
+  background-color: #ff3b30;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.add:hover{
+  background-color: #e62e24;
+}
+
+/* tasks box */
+
+.tasks{
+  background-color: #dcdcdc;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* task item */
+
+.task{
+  background-color: white;
+  padding: 12px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task:not(:last-child){
+  margin-bottom: 15px;
+}
+
+.task:hover{
+  background-color: #f7f7f7;
+}
+
+.task.done{
+  opacity: 0.5;
+}
+
+/* delete button */
+
+.del{
+  background-color: #ff3b30;
+  color: white;
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.del:hover{
+  background-color: #e62e24;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="form">
+        <input type="text" class="input">
+        <input type="submit" class="add" value="Add-Task">
+        </div>
+            <div class="tasks"></div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
