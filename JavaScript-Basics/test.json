@@ -1,0 +1,58 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Ahmed Hussien",
+      "username": "ahmed_dev",
+      "email": "ahmed@email.com",
+      "isAdmin": true,
+      "skills": ["JavaScript", "HTML", "CSS"],
+      "points": 1500
+    },
+    {
+      "id": 2,
+      "name": "Sara Mohamed",
+      "username": "sara_design",
+      "email": "sara@email.com",
+      "isAdmin": false,
+      "skills": ["UI", "Figma", "Photoshop"],
+      "points": 980
+    },
+    {
+      "id": 3,
+      "name": "Omar Ali",
+      "username": "omar_backend",
+      "email": "omar@email.com",
+      "isAdmin": false,
+      "skills": ["NodeJS", "MongoDB", "Express"],
+      "points": 1230
+    }
+  ],
+
+  "products": [
+    {
+      "id": 101,
+      "title": "Laptop",
+      "price": 15000,
+      "inStock": true
+    },
+    {
+      "id": 102,
+      "title": "Keyboard",
+      "price": 500,
+      "inStock": false
+    },
+    {
+      "id": 103,
+      "title": "Mouse",
+      "price": 250,
+      "inStock": true
+    }
+  ],
+
+  "settings": {
+    "siteName": "Elzero App",
+    "version": "1.0.0",
+    "maintenance": false
+  }
+}
