@@ -1,2 +1,16 @@
-# javascript-nodejs-learning
-Collection of my JavaScript and Node.js learning journey including projects, practice code, and backend applications.
+# JavaScript & Node.js Learning
+
+This repository contains my journey in learning JavaScript and Node.js.
+
+## 📂 Contents
+
+- JavaScript Basics
+- Node.js Basics
+- Mini Projects
+- Backend Projects
+
+## 🚀 Goals
+
+- Improve problem-solving skills
+- Build real backend applications
+- Write clean and maintainable code
